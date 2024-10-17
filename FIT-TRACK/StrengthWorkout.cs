@@ -18,7 +18,7 @@ namespace FIT_TRACK
 
         public override int CalculateCaloriesBurned()//FYLL I KOD HÄR!!
         {
-            
+            return 0;
         }
     }
 }

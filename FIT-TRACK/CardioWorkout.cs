@@ -16,9 +16,9 @@ namespace FIT_TRACK
             this.Distance = Distance;
         }
 
-        public override int CalculateCaloriesBurned()
+        public override int CalculateCaloriesBurned()//FYLL I KOD HÄR!!
         {
-            
+            return 0;
         }
     }
 }

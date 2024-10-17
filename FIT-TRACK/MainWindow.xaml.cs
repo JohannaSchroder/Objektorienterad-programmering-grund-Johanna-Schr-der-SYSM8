@@ -24,5 +24,15 @@ namespace FIT_TRACK
         {
             InitializeComponent();
         }
+
+        private void LogIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Register_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
