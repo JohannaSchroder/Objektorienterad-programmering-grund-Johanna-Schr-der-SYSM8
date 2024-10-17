@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace FIT_TRACK
 {
-    class Person
+    public abstract class Person
     {
+        //egenskaper
+        public string UserName { get; set; }
+        public string Password { get; set; }
+
+        //konstruktor
+        public Person(string UserName, string Password) 
+        {
+            this.UserName = UserName;
+            this.Password = Password;
+        }
+
+        //metoder
+        public abstract void SignIn();
+
     }
 }
