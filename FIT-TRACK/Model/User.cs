@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace FIT_TRACK
 {
@@ -24,12 +25,19 @@ namespace FIT_TRACK
         //metoder
         public override void SignIn()//HÄR BEHÖVER DU LÄGGA IN KOD!!
         {
-            
+            if (UserName == UserName && Password == Password)
+            {
+                MessageBox.Show("Du är inloggad!");
+            }
+            else
+            {
+                MessageBox.Show("Kontrollera ditt Användarnamn och Lösenord");
+            }
         }
 
-        public void ResetPassword(string securityAnswer)//HÄR BEHÖVER DU LÄGGA IN KOD!!
+        /*public void ResetPassword(string securityAnswer)//HÄR BEHÖVER DU LÄGGA IN KOD OM DU VILL FÅ VG!!
         { 
             
-        }
+        }*/
     }
 }

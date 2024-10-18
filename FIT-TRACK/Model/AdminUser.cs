@@ -12,8 +12,8 @@ namespace FIT_TRACK
         
 
         //Konstruktor
-        public AdminUser(string UserName, string Password, string Country, string SecurityQuestion, string SecurityAnswer) 
-            : base(UserName, Password, Country, SecurityQuestion, SecurityAnswer) 
+        public AdminUser(string UserName, string Password, string Country, /*string SecurityQuestion, string SecurityAnswer*/) 
+            : base(UserName, Password, Country /*SecurityQuestion, SecurityAnswer*/) 
         { 
         }
 
