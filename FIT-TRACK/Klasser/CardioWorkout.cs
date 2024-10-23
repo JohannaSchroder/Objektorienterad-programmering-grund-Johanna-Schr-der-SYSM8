@@ -10,7 +10,7 @@ namespace FIT_TRACK
     {
         public double Distance { get; set; }
 
-        public CardioWorkout(string Date, string Type, string Duration, int CaloriesBurned, string Notes, double Distance) 
+        public CardioWorkout(DateTime Date, string Type, TimeSpan Duration, int CaloriesBurned, string Notes, double Distance) 
             : base(Date, Type, Duration, CaloriesBurned, Notes)
         { 
             this.Distance = Distance;

@@ -10,7 +10,7 @@ namespace FIT_TRACK
     {
         public int Repitation { get; set; }
 
-        public StrengthWorkout(string Date, string Type, string Duration, int CaloriesBurned, string Notes, int Repitation) :
+        public StrengthWorkout(DateTime Date, string Type, TimeSpan Duration, int CaloriesBurned, string Notes, int Repitation) :
             base(Date, Type, Duration, CaloriesBurned, Notes)
         { 
             this.Repitation = Repitation;

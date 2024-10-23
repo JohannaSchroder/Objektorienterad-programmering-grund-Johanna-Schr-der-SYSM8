@@ -23,7 +23,7 @@ namespace FIT_TRACK
         }
 
         //metoder
-        public override void SignIn()//HÄR BEHÖVER DU LÄGGA IN KOD!!
+        public override void SignIn()
         {
             if (UserName == UserName && Password == Password)
             {
