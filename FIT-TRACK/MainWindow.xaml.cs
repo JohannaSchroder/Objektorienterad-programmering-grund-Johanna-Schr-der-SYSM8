@@ -27,8 +27,6 @@ namespace FIT_TRACK
             InitializeComponent();
         }
 
-        public event PropertyChangedEventHandler? PropertyChanged;
-
         private void LogIn_Click(object sender, RoutedEventArgs e)
         {
 
@@ -40,10 +38,13 @@ namespace FIT_TRACK
         }
 
 
-
+        
+        
+        public event PropertyChangedEventHandler? PropertyChanged;
         private void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
     }
 }
